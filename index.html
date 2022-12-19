@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <!-- Completa tu nombre -->
+    <title>irene cerezo gomez</title>
+
+</head>
+<body>
+
+    <!-- Completar html aqui -->
+<table class="gl" align="center"></span>
+<h1>Aplicacion de dietas<span class="titulo"></span></h1>
+
+<table class="primera" width="50%" border="0" align="center"  >
+  <tr >
+    <td class="primera_fila">Nombre</td>
+    <td class="primera_fila">Sexo</td>
+    <td class="primera_fila">Edad</td>
+    <td class="primera_fila">Altura</td>
+    <td class="primera_fila">Peso</td>
+    <td class="primera_fila">Actividad</td>
+    <td class="primera_fila">IM Basal</td>
+    <td class="primera_fila">Calorias necesarias</td>
+  
+  </tr>       
+  <td class="segundo">Francisco</td>
+  <td class="segundo">Hombre</td>
+  <td class="segundo" >31</td>
+  <td class="segundo">198</td>
+  <td class="segundo">89</td>
+  <td class="segundo">moderada</td>
+  <td class="segundo">1427 kCal</td>
+  <td class="segundo">1712 kCal</td> 
+ 
+<tr>
+  <td class="segundo">Jose Antonio</td>
+  <td class="segundo">Hombre</td>
+  <td class="segundo" >46</td>
+  <td class="segundo">187</td>
+  <td class="segundo">85</td>
+  <td class="segundo">moderada</td>
+  <td class="segundo">1333 kCal</td>
+  <td class="segundo">1435 kCal</td> 
+<tr>
+    <td class="segundo">Jeniffer</td>
+  <td class="segundo">mujer</td>
+  <td class="segundo" >45</td>
+  <td class="segundo">167</td>
+  <td class="segundo">56</td>
+  <td class="segundo">alta</td>
+  <td class="segundo">1256 kCal</td>
+  <td class="segundo">1943 kCal</td> 
+
+</tr>
+</table>
+</table>
+<input type=button id="boton"  onclick="mostrarFormulario()" value="Añadir Cliente "/>
+<div id="Formulario" style="display: none;" class="modal-content">
+    <p>Nombre: <input type="text" name="nombre" id="nombre"/></p>
+    <p>sexo<br/>
+        <input type="radio" name="sexo" value="v" id="sexo"/> Varón<br/>
+        <input type="radio" name="sexo" value="m" id="sexo"/> Mujer</p>
+    <p>Edad: <input type="number" name="edad" size="35" id="edad"/></p>
+    <p>Altura(cm): <input type="number" name="altura" size="35" id="altura"/></p>
+    <p>Peso: <input type="number" name="peso" size="35" id="peso"/></p>
+    <p>Actividad Fisica</p>
+    <select name="actividadfisica" id="actifisica">
+
+        <option>Suave</option>
+        
+        <option>Sedentar</option>
+        
+        <option>Largo</option>
+        
+        </select>
+  <button type="submit" id="anadir" onclick="enviado()" class="nuevo">Añadir Nuevo</button>
+  <button type="submit" class="volver">Volver atras</button>
+    </form>
+    </div>
+    <footer>
+        <h2>Irene Cerezo 2022</h2>
+    </footer>
+</table>
+
+    <script src="app.js"></script>
+</body>
+</html>

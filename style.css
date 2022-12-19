@@ -1,0 +1,46 @@
+/*# sourceMappingURL=style.css.map */
+
+@charset "utf-8";
+/* CSS Document */
+h1{
+    text-align:center;
+    background-color: rgb(201, 197, 197);
+    
+}
+table .gl {
+    padding: 50%;
+    border-radius: 10%;
+}
+table .primera_fila{
+    align-items: center;
+	font-size:1.5em;
+	background-color: orange;
+}
+
+.centrado{
+	text-align:center;
+}
+table .gl{
+   background-color: aqua;
+   align-items: center;
+   border-radius: 30px;
+}
+
+
+footer h2{
+    text-align:center;
+    background-color: rgb(201, 197, 197);
+
+}
+.segundo{
+    align-items: center; 
+
+}
+
+.boton{
+        align-items: center;
+        background: green;
+        font-size: 15px;
+
+    }
+
